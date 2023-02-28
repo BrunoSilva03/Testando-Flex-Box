@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+li {
+    margin: 5px;
+}
+
+button {
+    background-color: rgb(61, 113, 244);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: rgb(48, 92, 204);
+}
