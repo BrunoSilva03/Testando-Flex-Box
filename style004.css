@@ -1,0 +1,23 @@
+@charset "UT-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    gap: 3rem;
+    align-items: baseline;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
