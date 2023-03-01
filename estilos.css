@@ -32,3 +32,31 @@ nav#menu1 > button {
 
 /* menu2 */
 
+nav#menu2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black;
+    color: white;
+    padding: 10px 2.5rem;
+}
+
+nav#menu2  > section {
+    display: flex;
+    gap: 3rem;
+    align-items: baseline;
+}
+
+
+nav#menu2 > section > ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+nav#menu2 > section > button {
+    background-color: rgb(83, 131, 245);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
