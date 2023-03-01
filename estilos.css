@@ -60,3 +60,38 @@ nav#menu2 > section > button {
     border-radius: 10px;
     padding: 5px;
 }
+
+
+/* menu3 */
+
+nav#menu3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black;
+    color: white;
+    padding: 10px 2.5rem;
+}
+
+nav#menu3 > section {
+    display: flex;
+    gap: 3rem;
+    align-items: baseline;
+}
+
+nav#menu3 > section > ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-items: baseline;
+}
+
+nav#menu3 > section > button {
+    background-color: rgb(83, 131, 245);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+/* menu 4 */
