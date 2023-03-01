@@ -11,7 +11,7 @@
 nav#menu1 {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     background-color: black;
     color: white;
     padding: 10px 2.5rem;
@@ -35,7 +35,7 @@ nav#menu1 > button {
 nav#menu2 {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     background-color: black;
     color: white;
     padding: 10px 2.5rem;
@@ -67,7 +67,7 @@ nav#menu2 > section > button {
 nav#menu3 {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     background-color: black;
     color: white;
     padding: 10px 2.5rem;
@@ -95,3 +95,20 @@ nav#menu3 > section > button {
 
 
 /* menu 4 */
+
+
+nav#menu4 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    gap: 3rem;
+    align-items: center;
+    padding: 10px 2.5rem;
+}
+
+nav#menu4 > ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
