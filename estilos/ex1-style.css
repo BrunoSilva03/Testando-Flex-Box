@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+
+
+header > nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(239, 239, 239);
+    padding: 0 2.5rem;
+}
+
+header > nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+ul li:last-child {
+    background-color: rgb(55, 55, 231);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+section {
+    display: flex;
+    gap: 1rem;
+    padding: 20px;
+    height: 95vh;
+}
+
+section > article#article1 {
+    background-color: lightgreen;
+    padding: 5px;
+    flex-basis: 25%;
+}
+
+section > article#article2 {
+    background-color: chartreuse;
+    padding: 5px;
+    flex: 1;
+}

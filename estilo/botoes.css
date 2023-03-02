@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+img {
+    width: 30px;
+    height: 33px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap: 1rem;
+}
+
+section {
+    display: flex;
+    gap: 3rem;
+    padding: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-top: auto;
+    
+}
